@@ -4,7 +4,7 @@ function exibirOsLivros (listaDeLivros) {
         let disponibilidade = verificarDisponibilidadeDoLivro (livro)
         elementoParaInserirLivros.innerHTML += `
         <div class="livro">
-        <img class= ${disponibilidade} src="${livro.imagem}" alt="${livro.alt}" />
+        <img class= "${disponibilidade}" src="${livro.imagem}" alt="${livro.alt}" />
         <h2 class="livro__titulo">
           ${livro.titulo}
         </h2>
