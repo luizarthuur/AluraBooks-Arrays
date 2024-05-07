@@ -1,5 +1,6 @@
 function exibirOsLivros (listaDeLivros) {
     elementoParaInserirLivros.innerHTML = ''
+    elementoComValorTotalDeLivrosDisponiveis.innerHTML = ''
     listaDeLivros.forEach(livro => {
         let disponibilidade = verificarDisponibilidadeDoLivro (livro)
         elementoParaInserirLivros.innerHTML += `
